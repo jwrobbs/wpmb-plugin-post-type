@@ -1,0 +1,19 @@
+{
+	"name": "jwrobbs/wpmb-plugin-post-type",
+	"type": "wordpress-plugin",
+	"license": "unlicence",
+	"authors": [
+		{
+			"name": "Josh Robbs",
+			"email": "josh@joshrobbs.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"WPMB_Plugin_CPT\\": "src/",
+			"WPMB_Plugin_CPT_Common\\": "common/"
+		}
+	},
+	"minimum-stability": "beta",
+	"require": {}
+}
