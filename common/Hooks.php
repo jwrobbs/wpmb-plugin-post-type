@@ -8,6 +8,7 @@
 namespace WPMB_Plugin_CPT_Common;
 
 use WPMB_Plugin_CPT\CPTs\PluginPostType;
+use WPMB_Plugin_CPT\Taxonomies\PluginStatus;
 
 defined( 'ABSPATH' ) || exit;
 
@@ -21,5 +22,6 @@ class Hooks {
 	 */
 	public static function init() {
 		PluginPostType::init();
+		PluginStatus::init();
 	}
 }

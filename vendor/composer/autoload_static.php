@@ -28,6 +28,7 @@ class ComposerStaticInit2570bdbda516f7869ed77f991f2d1b9d
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'WPMB_Plugin_CPT\\CPTs\\PluginPostType' => __DIR__ . '/../..' . '/src/CPTs/PluginPostType.php',
+        'WPMB_Plugin_CPT\\Taxonomies\\PluginStatus' => __DIR__ . '/../..' . '/src/Taxonomies/PluginStatus.php',
         'WPMB_Plugin_CPT_Common\\Hooks' => __DIR__ . '/../..' . '/common/Hooks.php',
     );
 
